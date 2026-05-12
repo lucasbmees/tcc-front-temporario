@@ -1,0 +1,141 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: linear-gradient(135deg, #0a3d91 0%, #1565c0 50%, #e3f2fd 100%);
+}
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  background-color: #ffffff;
+  padding: 24px 28px; /* Reduzido o padding vertical */
+  border-radius: 18px;
+  box-shadow: 0 18px 45px rgba(0, 45, 98, 0.25);
+  border: 1px solid rgba(21, 101, 192, 0.15);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 18px; /* Reduzido de 28px */
+}
+
+.logo {
+  height: 100px; /* Ajuste conforme o tamanho da sua logo */
+  margin-bottom: 15px;
+}
+
+.title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #0d47a1;
+}
+
+.subtitle {
+  margin-top: 8px;
+  font-size: 15px;
+  color: #5f6f8a;
+}
+
+.formGroup {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.formRow {
+  display: flex;
+  gap: 15px;
+}
+
+.formRow .formGroup {
+  flex: 1;
+}
+
+.label {
+  display: block;
+  margin-bottom: 4px; /* Reduzido de 8px */
+  font-weight: 600;
+  color: #37474f;
+  font-size: 13px; /* Reduzido levemente */
+}
+
+.input {
+  width: 100%;
+  padding: 10px 14px; /* Reduzido de 12px 16px */
+  border: 2px solid #e1e8ed;
+  border-radius: 8px;
+  font-size: 14px; /* Reduzido de 15px */
+  background-color: #f8faff;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 0 4px rgba(25, 118, 210, 0.1);
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.linkHighlight {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.2s;
+}
+
+.linkHighlight:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+.registerText {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #5f6f8a;
+}
+
+.button {
+  width: 100%;
+  padding: 12px; /* Reduzido de 14px */
+  margin-top: 10px; /* Reduzido de 15px */
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #0d47a1 0%, #1976d2 100%);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.linkArea {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.link {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .formRow {
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .container {
+    width: 95%;
+    padding: 24px 20px;
+  }
+}

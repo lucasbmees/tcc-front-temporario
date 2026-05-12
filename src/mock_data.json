@@ -1,0 +1,182 @@
+{
+  "usuarios": [
+    {
+      "usu_id": 1,
+      "usu_nome": "João",
+      "usu_sobrenome": "Silva",
+      "usu_email": "joao@empreendedor.com",
+      "usu_cargo_id": 2
+    },
+    {
+      "usu_id": 2,
+      "usu_nome": "Maria",
+      "usu_sobrenome": "Santos",
+      "usu_email": "maria@tech.com",
+      "usu_cargo_id": 2
+    },
+    {
+      "usu_id": 3,
+      "usu_nome": "Carlos",
+      "usu_sobrenome": "Oliveira",
+      "usu_email": "carlos@startup.com",
+      "usu_cargo_id": 2
+    },
+    {
+      "usu_id": 4,
+      "usu_nome": "Ana",
+      "usu_sobrenome": "Pereira",
+      "usu_email": "ana@invest.com",
+      "usu_cargo_id": 2
+    }
+  ],
+  "ideias": [
+    {
+      "ida_id": 101,
+      "ida_usuario_id": 1,
+      "ida_nome": "EcoEnergia Residencial",
+      "ida_status_id": 1,
+      "ida_status_nome": "Ativa",
+      "ida_categoria_id": 1,
+      "ida_categoria_nome": "Sustentabilidade",
+      "info": {
+        "ida_info_descricao": "Sistema de captação solar de baixo custo para residências populares.",
+        "ida_info_fatia": 15,
+        "ida_info_imagem": "src/assets/noimage.jpg",
+        "ida_info_link_video": "https://www.youtube.com/watch?v=unfq0qpzExU"
+      }
+    },
+    {
+      "ida_id": 102,
+      "ida_usuario_id": 2,
+      "ida_nome": "SmartPet Feed",
+      "ida_status_id": 1,
+      "ida_status_nome": "Ativa",
+      "ida_categoria_id": 2,
+      "ida_categoria_nome": "Tecnologia",
+      "info": {
+        "ida_info_descricao": "Alimentador automático para pets controlado via aplicativo com IA.",
+        "ida_info_fatia": 10,
+        "ida_info_imagem": "src/assets/noimage.jpg",
+        "ida_info_link_video": "https://www.youtube.com/watch?v=unfq0qpzExU"
+      }
+    },
+    {
+      "ida_id": 103,
+      "ida_usuario_id": 1,
+      "ida_nome": "Horta Urbana Inteligente",
+      "ida_status_id": 1,
+      "ida_status_nome": "Ativa",
+      "ida_categoria_id": 1,
+      "ida_categoria_nome": "Sustentabilidade",
+      "info": {
+        "ida_info_descricao": "Módulos verticais para plantio em apartamentos com irrigação automática.",
+        "ida_info_fatia": 20,
+        "ida_info_imagem": "src/assets/noimage.jpg",
+        "ida_info_link_video": "https://www.youtube.com/watch?v=unfq0qpzExU"
+      }
+    },
+    {
+      "ida_id": 104,
+      "ida_usuario_id": 3,
+      "ida_nome": "Plataforma de Freelancers Locais",
+      "ida_status_id": 1,
+      "ida_status_nome": "Ativa",
+      "ida_categoria_id": 2,
+      "ida_categoria_nome": "Tecnologia",
+      "info": {
+        "ida_info_descricao": "Conecta prestadores de serviço autônomos a clientes em um raio de 5km.",
+        "ida_info_fatia": 12,
+        "ida_info_imagem": "src/assets/noimage.jpg",
+        "ida_info_link_video": "https://www.youtube.com/watch?v=unfq0qpzExU"
+      }
+    },
+    {
+      "ida_id": 105,
+      "ida_usuario_id": 4,
+      "ida_nome": "Reciclagem de Eletrônicos",
+      "ida_status_id": 1,
+      "ida_status_nome": "Ativa",
+      "ida_categoria_id": 1,
+      "ida_categoria_nome": "Sustentabilidade",
+      "info": {
+        "ida_info_descricao": "Logística reversa para componentes eletrônicos descartados inadequadamente.",
+        "ida_info_fatia": 25,
+        "ida_info_imagem": "src/assets/noimage.jpg",
+        "ida_info_link_video": "https://www.youtube.com/watch?v=unfq0qpzExU"
+      }
+    },
+    {
+      "ida_id": 106,
+      "ida_usuario_id": 3,
+      "ida_nome": "App de Carona Compartilhada",
+      "ida_status_id": 1,
+      "ida_status_nome": "Ativa",
+      "ida_categoria_id": 2,
+      "ida_categoria_nome": "Tecnologia",
+      "info": {
+        "ida_info_descricao": "Focado em trajetos universitários para reduzir o trânsito nos campi.",
+        "ida_info_fatia": 8,
+        "ida_info_imagem": "src/assets/noimage.jpg",
+        "ida_info_link_video": "https://www.youtube.com/watch?v=unfq0qpzExU"
+      }
+    },
+    {
+      "ida_id": 107,
+      "ida_usuario_id": 2,
+      "ida_nome": "Marketplace de Moda Circular",
+      "ida_status_id": 1,
+      "ida_status_nome": "Ativa",
+      "ida_categoria_id": 3,
+      "ida_categoria_nome": "Varejo",
+      "info": {
+        "ida_info_descricao": "Aluguel e venda de roupas de luxo seminovas com curadoria especializada.",
+        "ida_info_fatia": 18,
+        "ida_info_imagem": "src/assets/noimage.jpg",
+        "ida_info_link_video": "https://www.youtube.com/watch?v=unfq0qpzExU"
+      }
+    },
+    {
+      "ida_id": 108,
+      "ida_usuario_id": 4,
+      "ida_nome": "Sistema de Gestão para MEIs",
+      "ida_status_id": 1,
+      "ida_status_nome": "Ativa",
+      "ida_categoria_id": 2,
+      "ida_categoria_nome": "Tecnologia",
+      "info": {
+        "ida_info_descricao": "Simplifica a emissão de notas e controle financeiro para microempreendedores.",
+        "ida_info_fatia": 5,
+        "ida_info_imagem": "src/assets/noimage.jpg",
+        "ida_info_link_video": "https://www.youtube.com/watch?v=unfq0qpzExU"
+      }
+    }
+  ],
+  "notificacoes": [
+    {
+      "ntf_id": 1,
+      "ntf_usuario_id": 1,
+      "ntf_tipo_id": 1,
+      "ntf_tipo_nome": "Nova Proposta",
+      "ntf_mensagem": "Você recebeu uma nova proposta para a ideia 'EcoEnergia Residencial'!",
+      "ntf_lida": false,
+      "ntf_create_date": "2024-03-20T10:00:00Z",
+      "target_id": 101
+    }
+  ],
+  "propostas": [
+    {
+      "prp_id": 1,
+      "prp_ideia_id": 101,
+      "prp_usuario_id": 4,
+      "prp_status": true,
+      "prp_aceite_id": 3,
+      "prp_aceite_nome": "Pendente",
+      "info": {
+        "prp_info_mensagem": "Olá João, gostei muito do seu projeto de energia solar. Gostaria de investir para acelerar a produção das placas.",
+        "prp_info_valor": 150000,
+        "prp_info_fatia_pret": 10,
+        "prp_info_create_date": "2024-03-20T10:00:00Z"
+      }
+    }
+  ]
+}
